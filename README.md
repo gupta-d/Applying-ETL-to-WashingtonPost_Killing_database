@@ -1,4 +1,4 @@
-# Applying-ETL-to-WashingtonPost_Killing_database
+# Applying ETL process to WashingtonPost Killing database
 Apply ETL process on Washington Post Killings database and linking to US Census files
 
 1. Read csv's using correct encoding method (guessing the encoding using 'chardet')
