@@ -11,4 +11,4 @@ Following is the summary of process followed:
     <ul>(b) Making sure that City Name field has common format  washington post data and US Census data files. It needed some data transformation. City names is used as common key to join the dataframes. </ul>
     <ul>(c) Use web API's from NamSor.com to guess race of persons (missing for a few records in washington post database).</ul>
  </li>
-3. Load final pandas dataframe to MySQL database using 'sqlalchemy' module
+3. Load final pandas dataframe to MySQL database using 'sqlalchemy' module.
