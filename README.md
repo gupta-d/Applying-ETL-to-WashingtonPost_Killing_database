@@ -1,5 +1,5 @@
 # Applying ETL process to WashingtonPost Killing database
-Washington post keeps a detailed database of all US police killings. Intention of this project is to merge the relevant information from US Census datasets (city specific information where these incidents have taken place), and apply <b><u>Extract_Transform-Load (ETL)</u> </b>process to upload the data into standard MySQL database.
+Washington post keeps a detailed database of all US police killings. Intention of this project is to merge washington post data with the relevant information from US Census datasets (city specific information where these incidents have taken place), and apply <b><u>Extract_Transform-Load (ETL)</u> </b>process to upload the data into standard MySQL database.
 
 I have used pandas to extract the main data from csv file, apply required transformations to handle missing data, creating common key to join files and finally used sqlalchemy module to upload pandas dataframe in a MySQL database.  
 
