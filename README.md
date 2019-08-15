@@ -5,7 +5,7 @@ I have used pandas to extract the main data from csv file, apply required transf
 
 Following is the high level summary summary of process followed:
 
-1. <bExtract</b> washington post & Census data from csv files to pandas dataframes. I have used 'chardet' module to guess detection of character encoding in a few csv files, as default utf-8 was not working. 
+1. <b>Extract</b> washington post & Census data from csv files to pandas dataframes. I have used 'chardet' module to guess detection of character encoding in a few csv files, as default utf-8 was not working. 
 
 2. <b>Transform</b> the data 
 <ul>
